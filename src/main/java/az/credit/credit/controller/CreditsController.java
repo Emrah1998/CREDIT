@@ -21,6 +21,7 @@ public class CreditsController {
     @GetMapping("/{status}")
     public List<CreditsResponse> getCredits(@PathVariable CreditsStatus status) {
         return creditsService.getCredits();
+        //
 
     }
 }
